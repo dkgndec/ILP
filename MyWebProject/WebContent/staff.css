@@ -1,0 +1,19 @@
+body {
+    margin: 0px; padding: 0px; font-family: 'Trebuchet MS',verdana;
+}
+table {
+    
+}
+td {
+     bgcolor:#f0f0f0;
+}
+sup
+{color:#FE2E2E;}
+
+#select, #select2, #select3, #select4 {
+    width: 145px;
+    height: 25px;
+}
+.test {
+    margin: 0px 0px 21px;
+}

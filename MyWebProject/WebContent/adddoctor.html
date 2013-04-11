@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Doctor's Registration</title>
+<script type="text/javascript" src="docs.js">
+</script>
+</head>
+
+
+</div>
+</div></div><br>
+</div> 
+
+<table width="98%" align="center">
+<tr height=40px align="center" style="background-color:#989898;">
+	<td> <h1 style="color:white;"> Doctor's Registration Form</h1> </td>
+</tr>
+
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<h1 align="center"> Doctor's Page </h1>
+<h5 align="center">All fields marked with * are mandatory</h5>
+<form name="dreg" action="DocAdd?option=1" method="post">
+
+
+<table border="1" align="center">
+   
+        <tr><td>First Name:</td><td> <input type="textbox" name="fname"><sup>*</sup></td></tr>
+        <tr><td>Last Name:</td> <td><input type="textbox" name="lastname" ><sup>*</sup></td></tr>
+        <tr><td>Gender:</td><td>    <input type="radio" name="gender" id="gender" value="M"> Male </td></tr>
+        <tr><td></td>
+        <td><input type="radio" name="gender" value="F"> Female</td></tr>
+<tr><td>Fee:</td> <td><input type="textbox" name="fee" ><sup>*</sup></td></tr>
+ 
+        <tr><td>Date Of Birth:</td><td> <input type="text" name="mydate" id="datepicker"><sup>*</sup></td></tr>
+        <tr><td>Qualification:</td><td><input type="textarea" name="qname" id="qname"><sup>*</sup></td></tr>
+        <tr><td>Visiting Days:</td> <sup>*</sup><td>
+                    <input type="checkbox" name="visting" value="Monday">Monday
+                    
+                    </input> 
+                       <input type="checkbox" name="visting" value="Tuesday">Tuesday
+                   
+                    </input>   <br></br> <input type="checkbox" name="visting" value="Wednesday">Wednesday
+                    
+                    </input>    <input type="checkbox" name="visting" value="Thursday">Thursday
+                    
+                    </input>  <br></br> <input type="checkbox" name="visting" value="Friday">Friday
+                    </input>  <br></br> <input type="checkbox" name="visting" value="Saturday">Saturday
+                    </input>  <br></br> <input type="checkbox" name="visting" value="Sunday">Sunday
+                    </input>
+                    
+                    
+</td></tr>
+<tr><td>Specialization:</td><td><input type="text" id="sname" name="sname"><sup>*</sup></td></tr>
+<tr><td>E-mail Id:</td><td><input type="text" id="mail" name="email"><sup>*</sup></td></tr>
+<tr><td>Contact no:</td><td> <input type="text" name="cnumber" id="cnumber"><sup>*</sup></td></tr>
+<tr><td>Visiting Time</td>
+<td> <select name="vt">
+<option selected value="Morning">Morning</option>
+<option value="Afternoon">Afternoon</option>
+<option value ="Evening">Evening</option>
+</select></td></tr>
+<tr><td>Department id</td>
+<td> <select name="depid">
+<option selected value="1">2</option>
+<option value="2">56</option>
+<option value ="3">545</option>
+<option value ="4">4</option>
+</select></td>
+</tr>
+</table>
+<center><input type="submit" value= "Submit" onclick="onValidate()">
+<input type="reset" value= "Reset">
+</div>
+</div></div></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+<h1>Add Department</h1>
+<form name = "form1" method = "post" action ="Department?option=1" onsubmit="return onvalidate();">
+<table border = "0">
+	
+	    <tr>
+		<td>Department Id :</td> <td> <input type="text" name="deptid" id="deptid" /></td>
+		</tr>
+		<tr>
+		<td>Department Name :</td> <td> <input type="text" name="deptname" id="deptname" /></td>
+		</tr>
+		<tr>
+		<td>Mobile Number :</td> <td><input type="text" name="mn" id="mn"  /></td>
+		</tr>
+		<tr>
+		<td>Landline Number :</td> <td><input type="text" name="ln" id="ln"  /></td>
+		</tr>
+		<tr>
+		<td>No of Floor Assistant</td> <td><input type="text" name="nfa"  id="nfa"/></td>
+		</tr>
+		<tr>
+		<td>No of Nurse</td> <td><input type="text" name="non"  id="non"/></td>
+		</tr>
+		<tr>
+		<td>Facilities Description</td> <td><textarea rows="3" cols="15" name = "description" id="description"></textarea></td>
+		</tr>
+		
+		</table>
+	<div id ="submit">
+<input type = "submit" value = "Confirm" /><input type = "Reset" value = "Reset" /></br>
+
+</div>
+</form>
+
+</div>
+</body>
+</html>
